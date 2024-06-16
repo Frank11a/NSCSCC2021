@@ -1,0 +1,58 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Fri Jun 14 15:11:08 2024
+| Host         : xiaoxin15pro running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'pll_example'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of pll_example (xilinx.com:ip:clk_wiz:6.0) from (Rev. 4) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Fri Jun 14 15:10:58 2024
+| Host         : xiaoxin15pro running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'mult_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of mult_gen_0 (xilinx.com:ip:mult_gen:12.0) from (Rev. 16) to (Rev. 19)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Fri Jun 14 15:10:57 2024
+| Host         : xiaoxin15pro running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a200tfbg676-2
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_0 (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 4) to (Rev. 7)
+

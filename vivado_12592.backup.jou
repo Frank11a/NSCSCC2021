@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Jun 14 15:10:10 2024
+# Process ID: 12592
+# Current directory: D:/vv code/NSCSCC2021FinalCode-final_mem_speed
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11296 D:\vv code\NSCSCC2021FinalCode-final_mem_speed\thinpad_top.xpr
+# Log file: D:/vv code/NSCSCC2021FinalCode-final_mem_speed/vivado.log
+# Journal file: D:/vv code/NSCSCC2021FinalCode-final_mem_speed\vivado.jou
+# Running On: xiaoxin15pro, OS: Windows, CPU Frequency: 2096 MHz, CPU Physical cores: 12, Host memory: 16499 MB
+#-----------------------------------------------------------
+start_gui
+open_project {D:/vv code/NSCSCC2021FinalCode-final_mem_speed/thinpad_top.xpr}
+upgrade_project -migrate_output_products
+update_compile_order -fileset sources_1
+report_ip_status -name ip_status 
+upgrade_ip -srcset blk_mem_gen_0 [get_ips  {blk_mem_gen_0 mult_gen_0 pll_example}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {blk_mem_gen_0 mult_gen_0 pll_example}] -no_script -sync -force -quiet
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
